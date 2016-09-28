@@ -9,11 +9,11 @@ type Args struct {
 	A, B int
 }
 
-//Representss service Arith with method Multiply
-type Arith int
-
 //Result of RPC call is of this type
 type Result int
+
+//Representss service Arith with method Multiply
+type Arith struct{}
 
 //This procedure is invoked by rpc and calls rpcexample.Multiply which stores product of args.A and args.B in result pointer
 func (t *Arith) Multiply(args Args, result *Result) error {

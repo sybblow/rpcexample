@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/haisum/rpcexample"
 	"log"
 	"net"
 	"net/http"
 	"net/rpc"
+
+	"github.com/haisum/rpcexample"
 )
 
 func main() {

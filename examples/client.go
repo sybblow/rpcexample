@@ -1,9 +1,10 @@
 package main
 
 import (
-	"github.com/haisum/rpcexample"
 	"log"
 	"net/rpc"
+
+	"github.com/haisum/rpcexample"
 )
 
 func main() {
@@ -19,6 +20,7 @@ func main() {
 	err = client.Call("Arith.Multiply", args, &result)
 	if err != nil {
 		log.Fatalf("error in Arith", err)
+		return
 	}
 	log.Printf("%d*%d=%d\n", args.A, args.B, result)
 }

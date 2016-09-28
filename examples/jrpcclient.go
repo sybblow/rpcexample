@@ -3,7 +3,7 @@ package main
 import (
 	"bytes"
 	"github.com/gorilla/rpc/json"
-	"github.com/haisum/rpcexample"
+	"github.com/sybblow/rpcexample"
 	"log"
 	"net/http"
 )

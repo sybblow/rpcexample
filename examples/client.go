@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/rpc"
 
-	"github.com/haisum/rpcexample"
+	"github.com/sybblow/rpcexample"
 )
 
 func main() {

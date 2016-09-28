@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 	"time"
-	// "github.com/haisum/rpcexample"
+	// "github.com/sybblow/rpcexample"
 )
 
 type Foo struct {

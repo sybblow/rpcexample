@@ -7,7 +7,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/haisum/rpcexample"
+	"github.com/sybblow/rpcexample"
 )
 
 type stdioWrapper struct {
